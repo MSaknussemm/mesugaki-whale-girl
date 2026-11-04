@@ -46,7 +46,7 @@ def stream_info(ffmpeg, path):
     m = re.search(r"([\d.]+)\s*fps", err)
     if m:
         info["fps"] = float(m.group(1))
-    info["alpha_meta"] = bool(re.search(r"alpha_mode\s*:\s*1", err))
+    info["alpha_meta"] = bool(re.search(r"alpha_?mode\s*:\s*1", err, re.IGNORECASE))
     return info
 
 

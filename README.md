@@ -5,6 +5,10 @@
 > 角色参考了社区「大肥鱼 / 鲸鱼娘」的人物设计语言，但为独立角色，不是同一个人物。
 > 素材以 CC BY-NC-SA 4.0 发布并保留完整署名，详见 [ASSET_LICENSE.md](ASSET_LICENSE.md)。**请勿商用。**
 
+![动作总览](preview/overview.png)
+
+> 截图取自各段动画的第 1.2 秒。桌面上的实际大小由 `scale` 决定，默认约 0.7 倍。
+
 ---
 
 ## 和 `mesugaki-feiyu-pet` 的关系
@@ -38,6 +42,7 @@
 | `tools/check_pack.py` | 素材自检：分辨率 / 帧率 / 编码 / alpha 平面 |
 | `LICENSE` | CC BY-NC-SA 4.0 法律全文 |
 | `LICENSES/MIT.txt` | 脚本（`install.ps1`、`tools/`）的 MIT 许可 |
+| `preview/overview.png` | 61 段动作总览图（各段第 1.2 秒） |
 
 > `characters/mesugaki/videos/` 下也放了同名的一份配置，**与根目录那三个文件逐字节一致**，沿用旧包的结构，不影响加载。
 
@@ -187,7 +192,6 @@ python tools/check_pack.py characters/mesugaki/videos
 - **循环接缝没有逐段量化**。走、跑、打游戏这几段做过接缝处理（帧差与普通相邻帧同量级），
   其余长片段首尾可能有轻微跳变。
 - **AI 生成的固有瑕疵**：个别帧手指、道具边缘会糊，长片段里姿态会有小幅漂移。
-- 没有 `preview/` 总览图：61 段版本的总览图还没重拍，需要的话可以按各段第 1.2 秒拼一张。
 
 ---
 

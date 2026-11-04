@@ -10,7 +10,10 @@
 - `move_strides.json`：`漂浮踏步` stride 90、`左转奔跑` stride 220
 - Windows 安装脚本 `install.ps1`：自动定位安装目录、备份旧角色、支持 `-Uninstall` 还原；
   检测到旧项目的 `bluewhale_tv` 时只提示、不自动删
-- 素材自检脚本 `tools/check_pack.py`
+- 素材自检脚本 `tools/check_pack.py`（`alpha_mode` 元数据匹配改为大小写不敏感：
+  部分片段把这行写成 `ALPHA_MODE`）
+- `preview/overview.png`：61 段总览图，每格取该段第 1.2 秒
+- 全量自检（`ffmpeg` + `libvpx-vp9` 解码）：**61/61 通过** 640×360 / 24 fps / VP9 / alpha 平面可解
 
 ### 与 mesugaki-feiyu-pet 的差异
 
