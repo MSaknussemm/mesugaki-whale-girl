@@ -1,5 +1,7 @@
 # 雌小鬼肥鱼桌宠素材包 · mesugaki
 
+> **这是主版本（唯一维护版）。** 旧的 [`mesugaki-feiyu-pet`](https://github.com/MSaknussemm/mesugaki-feiyu-pet)（47 段 / 角色 ID `bluewhale_tv`）**已归档，不再更新**；新装只需要本仓库。两个都装也能跑，但菜单里会出现两个相似角色——只装这个更清爽。
+
 一套给 **dsh-pet / dsh-pet-indesktop（WebM 版）** 用的桌宠角色素材：**61 段 640×360 透明动画**，丢进 `characters/` 就能换掉默认的 `shenshen`。角色 ID 是 **`mesugaki`**。
 
 > 角色参考了社区「大肥鱼 / 鲸鱼娘」的人物设计语言，但为独立角色，不是同一个人物。
