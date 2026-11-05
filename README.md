@@ -1,6 +1,6 @@
 # 雌小鬼肥鱼桌宠素材包 · mesugaki
 
-> **这是主版本（唯一维护版）。** 旧的 [`mesugaki-feiyu-pet`](https://github.com/MSaknussemm/mesugaki-feiyu-pet)（47 段 / 角色 ID `bluewhale_tv`）**已归档，不再更新**；新装只需要本仓库。两个都装也能跑，但菜单里会出现两个相似角色——只装这个更清爽。
+> **这是主版本（唯一维护版）。** 旧的 [`20261030`](https://github.com/MSaknussemm/20261030)（47 段 / 角色 ID `bluewhale_tv`）**已归档，不再更新**；新装只需要本仓库。两个都装也能跑，但菜单里会出现两个相似角色——只装这个更清爽。
 
 一套给 **dsh-pet / dsh-pet-indesktop（WebM 版）** 用的桌宠角色素材：**61 段 640×360 透明动画**，丢进 `characters/` 就能换掉默认的 `shenshen`。角色 ID 是 **`mesugaki`**。
 
@@ -13,11 +13,11 @@
 
 ---
 
-## 和 `mesugaki-feiyu-pet` 的关系
+## 和 `20261030` 的关系
 
 同一批动画的**完整版重新发布**。旧项目（47 段精选版，角色 ID `bluewhale_tv`）保持不动，两个包可以并存，也可以只留一个。
 
-| | 本项目 `mesugaki-whale-girl` | 旧项目 [`mesugaki-feiyu-pet`](https://github.com/MSaknussemm/mesugaki-feiyu-pet) |
+| | 本项目 `mesugaki-whale-girl` | 旧项目 [`20261030`](https://github.com/MSaknussemm/20261030) |
 |---|---|---|
 | 角色 ID / 菜单名 | `mesugaki` | `bluewhale_tv` |
 | 段数 | **61** | 47 |
@@ -223,6 +223,6 @@ A 61-clip animated character pack for [dsh-pet-indesktop](https://github.com/Mer
 
 Drop `characters/mesugaki` into `<install dir>\_internal\assets\characters\`, restart the pet, pick the character from the right-click menu. Windows users can run `install.ps1` (backs up a same-named previous copy; `-Uninstall` restores it). The directory name is the character ID shown in the menu — rename the folder to change it.
 
-This is the full re-release of the same animation set previously published as [`mesugaki-feiyu-pet`](https://github.com/MSaknussemm/mesugaki-feiyu-pet) (47 clips, ID `bluewhale_tv`); that project is left untouched.
+This is the full re-release of the same animation set previously published as [`20261030`](https://github.com/MSaknussemm/20261030) (47 clips, ID `bluewhale_tv`); that project is left untouched.
 
 Assets are licensed **CC BY-NC-SA 4.0** — attribution required, **no commercial use**, derivatives under the same license. Scripts are MIT.
