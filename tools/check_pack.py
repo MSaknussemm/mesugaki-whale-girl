@@ -15,7 +15,8 @@ import shutil
 import subprocess
 import sys
 
-EXPECT_W, EXPECT_H, EXPECT_FPS = 640, 360, 24.0
+EXPECT_W, EXPECT_H = 640, 360
+ALLOWED_FPS = (24.0, 30.0, 36.0, 48.0, 60.0)  # 个别片段是高帧率版
 
 
 def find_ffmpeg(explicit):
@@ -104,8 +105,8 @@ def main():
         flags = []
         if (info.get("w"), info.get("h")) != (EXPECT_W, EXPECT_H):
             flags.append(f"尺寸应为 {EXPECT_W}x{EXPECT_H}")
-        if abs(info.get("fps", 0) - EXPECT_FPS) > 0.01:
-            flags.append(f"帧率应为 {EXPECT_FPS:g}")
+        if not any(abs(info.get("fps", 0) - f) <= 0.01 for f in ALLOWED_FPS):
+            flags.append("帧率应为 " + " / ".join(f"{f:g}" for f in ALLOWED_FPS))
         if info.get("codec") != "vp9":
             flags.append("编码应为 vp9")
         if alpha is False:

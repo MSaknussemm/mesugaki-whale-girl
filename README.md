@@ -144,7 +144,7 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1 -Uninstall
 | 容器 / 编码 | WebM / **VP9 Profile 0**（`-c:v libvpx-vp9`） |
 | 像素格式 | `yuva420p`（**alpha_mode=1**，带透明平面） |
 | 分辨率 | **640×360**，SAR 1:1 |
-| 帧率 | **24 fps** 恒定 |
+| 帧率 | **24 fps**（2 段高帧率：`点击回应-被按墙上` 36 fps、`向前挥拳` 48 fps） |
 | 声音 | 无（`-an`） |
 | 时长 | 待机 10–30 s；动作 5–75 s；长片段会被完整播完 |
 | 命名 | 文件名就是菜单里显示的名字，**可以用中文** |
