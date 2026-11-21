@@ -2,7 +2,7 @@
 
 > **这是主版本（唯一维护版）。** 旧的 [`20261030`](https://github.com/MSaknussemm/20261030)（47 段 / 角色 ID `bluewhale_tv`）**已归档，不再更新**；新装只需要本仓库。两个都装也能跑，但菜单里会出现两个相似角色——只装这个更清爽。
 
-一套给 **dsh-pet / dsh-pet-indesktop（WebM 版）** 用的桌宠角色素材：**81 段 640×360 透明动画**，丢进 `characters/` 就能换掉默认的 `shenshen`。角色 ID 是 **`mesugaki`**。
+一套给 **dsh-pet / dsh-pet-indesktop（WebM 版）** 用的桌宠角色素材：**82 段 640×360 透明动画**，丢进 `characters/` 就能换掉默认的 `shenshen`。角色 ID 是 **`mesugaki`**。
 
 > **v1.1.0 起**：全部片段在竖向做了 7.5% 的整体压缩（脚底仍对齐 y=351，判定框不变），人物比原始比例略矮、视觉上更饱满；需要原始比例的请用 `v1.0.0`。
 
@@ -22,9 +22,9 @@
 | | 本项目 `mesugaki-whale-girl` | 旧项目 [`20261030`](https://github.com/MSaknussemm/20261030) |
 |---|---|---|
 | 角色 ID / 菜单名 | `mesugaki` | `bluewhale_tv` |
-| 段数 | **81** | 47 |
+| 段数 | **82** | 47 |
 | `random` / `click` | 63 / 8 | 29 / 8 |
-| 体积 | 75.3 MB | 67.9 MB |
+| 体积 | 74.5 MB | 67.9 MB |
 
 差异细节：
 
@@ -46,15 +46,15 @@
 | `tools/check_pack.py` | 素材自检：分辨率 / 帧率 / 编码 / alpha 平面 |
 | `LICENSE` | CC BY-NC-SA 4.0 法律全文 |
 | `LICENSES/MIT.txt` | 脚本（`install.ps1`、`tools/`）的 MIT 许可 |
-| `preview/overview.png` | 81 段动作总览图（各段第 1.2 秒） |
+| `preview/overview.png` | 82 段动作总览图（各段第 1.2 秒） |
 
 > `characters/mesugaki/videos/` 下也放了同名的一份配置，**与根目录那三个文件逐字节一致**，沿用旧包的结构，不影响加载。
 
-### 81 段动画
+### 82 段动画
 
 | 分类 | 段数 | 说明 |
 |---|---|---|
-| `idle/` | 6 | 待机循环，10–30 秒不等，按权重轮播 |
+| `idle/` | 7 | 待机循环，10–30 秒不等，按权重轮播 |
 | `random/` | 63 | 随机小动作：吃白米饭、打呵欠、数落你、刷平板、盘腿打游戏、戳屏幕、托腮思考、扭动挑衅…… |
 | `click/` | 8 | 点击回应：开心跃动、害羞惊讶、傲娇生气、炸毛、被按墙上、挠痒、吃光白米饭、电击抽搐 |
 | `move/` | 2 | 漂浮踏步、左转奔跑（带 stride 标定） |
@@ -219,7 +219,7 @@ python tools/check_pack.py characters/mesugaki/videos
 
 ## English
 
-A 81-clip animated character pack for [dsh-pet-indesktop](https://github.com/MerZlin/dsh-pet-indesktop) (WebM build): 640×360, 24 fps, VP9 with alpha. Character ID is `mesugaki`.
+A 82-clip animated character pack for [dsh-pet-indesktop](https://github.com/MerZlin/dsh-pet-indesktop) (WebM build): 640×360, 24 fps, VP9 with alpha. Character ID is `mesugaki`.
 
 Drop `characters/mesugaki` into `<install dir>\_internal\assets\characters\`, restart the pet, pick the character from the right-click menu. Windows users can run `install.ps1` (backs up a same-named previous copy; `-Uninstall` restores it). The directory name is the character ID shown in the menu — rename the folder to change it.
 
