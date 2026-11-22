@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 Thumbs.db
 .DS_Store
+
+# 桌宠运行时抽帧缓存（约 497 MB / 4.2 万个 webp），不是素材的一部分
+characters/*/frameseq/
