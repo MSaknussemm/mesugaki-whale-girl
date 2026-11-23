@@ -45,7 +45,7 @@
 
 ## 4. 与 mesugaki-feiyu-pet 的关系
 
-本仓库是同一批动画的完整版重新发布（82 段，角色 ID `mesugaki`）；
+本仓库是同一批动画的完整版重新发布（96 段，角色 ID `mesugaki`）；
 [`mesugaki-feiyu-pet`](https://github.com/MSaknussemm/mesugaki-feiyu-pet) 是同一批动画的 47 段精选版（角色 ID `bluewhale_tv`）。
 两个项目的素材许可与署名链完全相同，互相之间不改变对方的许可。
 
